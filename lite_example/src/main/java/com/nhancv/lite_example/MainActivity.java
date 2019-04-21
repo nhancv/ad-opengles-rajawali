@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         final SurfaceView surface = new SurfaceView(this);
         surface.setRenderMode(ISurface.RENDERMODE_WHEN_DIRTY);
-
+        surface.setTransparent(true);
+        surface.bringToFront();
         // Add mSurface to your root view
         addContentView(surface, new ActionBar.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT));
 
