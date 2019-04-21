@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final SurfaceView surface = new SurfaceView(this);
-        surface.setFrameRate(60.0);
         surface.setRenderMode(ISurface.RENDERMODE_WHEN_DIRTY);
 
         // Add mSurface to your root view
