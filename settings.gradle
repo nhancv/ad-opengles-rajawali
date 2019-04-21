@@ -1,4 +1,4 @@
-include ':rajawali'
+include ':rajawali', ':lite_example'
 include ':examples'
 include ':vuforia'
 include ':wear'
